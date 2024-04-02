@@ -1,0 +1,37 @@
+{
+    "name": "IvanDAdi/hyva-testing",
+    "type": "magento2-module",
+    "authors": [{
+            "name": "icubeus",
+            "email": "sales@icube.us"
+        }
+    ],
+    "description": "Exam Hyva",
+    "homepage": "<your_github_repo.git>",
+    "keywords": [
+        "magento",
+        "magento2"
+    ],
+    "minimum-stability": "dev",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "require": {
+        "giggsey/libphonenumber-for-php": "^8.12"
+    },
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    },
+    "autoload": {
+        "files": [
+          "src/theme/registration.php"
+        ],
+        "psr-4": {
+        }
+    }
+}

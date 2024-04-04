@@ -289,5 +289,15 @@ module.exports = hyvaModules.mergeTailwindConfig({
     '../../../../../../../app/code/**/*.phtml',
     // project-level phtml files
     '../../../../../../../vendor/icube-mage/**/*.phtml', 
+    // swift hyva
+    '../../../../../../../vendor/icubebysirclo/modules-swift-hyva/src/theme-frontend-swift-hyva/**/*.phtml',
+    '../../../../../../../vendor/icubebysirclo/modules-swift-hyva/src/theme-frontend-swift-hyva/*/layout/*.xml',
+    '../../../../../../../vendor/icubebysirclo/modules-swift-hyva/src/theme-frontend-swift-hyva/*/page_layout/override/base/*.xml',
+    '../../../../../../../vendor/icubebysirclo/modules-swift-hyva/src/theme-frontend-swift-hyva/**/*.phtml',
+    //custom theme
+    '../../../../../../../vendor/IvanDAdi/hyva-testing/src/theme/**/*.phtml',
+    '../../../../../../../vendor/IvanDAdi/hyva-testing/src/theme/*/layout/*.xml',
+    '../../../../../../../vendor/IvanDAdi/hyva-testing/src/theme/*/page_layout/override/base/*.xml',
+    '../../../../../../../vendor/IvanDAdi/hyva-testing/src/theme/**/*.phtml',
   ]
 });
